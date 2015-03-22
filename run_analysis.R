@@ -85,5 +85,5 @@ while (count <= ending) {
 len4<- length(frameY[,1])
 rownames(frameY)<-c(1:len4)
 write.table (subsetordered1,"means_and_stddevs.txt")
-write.table (frameY,"final_tidy.txt")
+write.table (frameY,"final_tidy.txt",row.name=FALSE)
 }	
